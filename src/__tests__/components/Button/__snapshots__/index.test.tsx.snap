@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pコンポーネントが表示されないこと 1`] = `
+<Fragment>
+  <button
+    onClick={[Function]}
+  >
+    Button
+  </button>
+</Fragment>
+`;
+
+exports[`イベント発火時にコールバック関数が呼び出されること 1`] = `
+<Fragment>
+  <p>
+    ボタンです
+  </p>
+  <button
+    onClick={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  >
+    Button
+  </button>
+</Fragment>
+`;
+
+exports[`小コンポーネントが存在すること 1`] = `
+<Fragment>
+  <p>
+    ボタンです
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    Button
+  </button>
+</Fragment>
+`;

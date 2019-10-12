@@ -17,5 +17,5 @@ module.exports = {
   ],
   // Enzymeの設定
   snapshotSerializers: ['enzyme-to-json/serializer'],
-  setupFilesAfterEnv: ['./src/setupEnzyme.ts'],
+  setupFilesAfterEnv: ['./test/setupEnzyme.ts'],
 };

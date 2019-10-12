@@ -6,9 +6,10 @@
     "strictPropertyInitialization": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
-    "module": "commonjs",
+    "module": "es2015",
     "target": "es5",
-    "jsx": "react"
+    "jsx": "react",
+    "esModuleInterop": true
   },
   "include": [
     "./src/**/*"
